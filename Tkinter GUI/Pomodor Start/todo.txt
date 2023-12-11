@@ -1,0 +1,12 @@
+use the "reps" variable to count down the correct number of seconds.
+the program timer needs to switch between counting down the work time and then break time
+1 rep = 25min work 5min break
+every 4 reps the break should be 20 minutes
+
+start timer
+initiate the count_down function with the WORK_MIN
+then after work min has completed start break with SHORT_BREAK_MIN
+after short break need to increment reps by 1
+if reps > 4
+next break should be LONG_BREAK_MIN
+then the timer should stop
