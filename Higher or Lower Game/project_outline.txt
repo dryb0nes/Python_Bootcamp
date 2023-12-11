@@ -1,0 +1,23 @@
+print the higher or lower art
+
+pull two names from the list of dictionaries
+
+there should be correct guess counter at the top
+
+present the list of names asking who has more followers a or b
+
+ask user to guess who has more followers and take that as input
+
+compare input answer "followers" against other names
+
+if input name has more followers then user is correct
+
+iterate correct guess counter by 1
+
+pull new name and compare against correct previous answer
+
+need to find a way to add new name and keep correct guess.
+
+if user guesses wrong print you lose and show number of correct guesses
+
+ask user if they would like to play again.

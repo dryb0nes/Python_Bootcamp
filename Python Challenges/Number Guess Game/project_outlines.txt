@@ -1,0 +1,18 @@
+Number Guessing Game
+
+1. print the art to the screen "Guess The Number"
+2. print "Welcome to the Number Guessing Game!"
+3. print "I'm thinking of a number between 1 and 100."
+    a. The game logic here should take and choose a random number betwee 1 and 100 and store it in a variable.
+4. Choose a Difficulty: Type 'easy' or 'hard': 
+    a. The input from this question will determine how many guesses the user will get
+    b. The logic shold take the input and compare it to pre-defined values for 'easy' and 'hard' and assign the corresponding value to a variable detailing how many "guesses" the player gets
+5. Once Difficulty is chose, define how many guesses they have to get the correct number.
+    a. We will lookup the "guesses" variable defined in step 4.b.
+6. Take and input with "Make a Guess:" as the prompt text
+    a. this input should be compared against the value defined in 3.agains
+    b. if the input does not match, the guess count should decrese by 1
+        i. the guess should be compared against the current number to guess and if the value was "lower" then we should print "Too low".
+        ii. if the current number to guess was "higher" then we should print "Too High"
+    c. The user should then be prompted to "guess again" looping back to the top of step 6. and printing the number of "guesses" left.
+    d. If the input matches the current number to guess then we should print "You got it! The answer was {current number to guess}"
