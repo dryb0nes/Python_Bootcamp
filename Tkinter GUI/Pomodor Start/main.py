@@ -25,7 +25,7 @@ reset = False
 def reset_timer():
     global reps
     reps = 0
-    window.after_cancel(timer)
+    window.after_cancel(timer) # type: ignore
     check_mark.configure(text="")
     timer_label.configure(text="Timer", font=(FONT_NAME, 40, "bold"), bg=YELLOW, fg=GREEN)
     canvas.itemconfig(timer_text, text="00:00")
